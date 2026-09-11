@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>体験詳細 | TOKIHAKO -時箱-</title>
+    <meta content="個人間で思い出・体験のBOXを貸し借りできるCtoCレンタルマーケット" name="description" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="logo" href="index.html"><span class="mark">時</span>TOKIHAKO<small>思い出・体験レンタル</small></a>
+        <nav class="gnav"><a class="" href="index.html">トップ</a><a class="active" href="taiken_ichiran.html">体験を探す</a><a class="" href="shuppin_jouhou.html">出品する</a><a class="" href="support.html">サポート</a></nav>
+        <div class="hdr-actions">
+          <a class="btn btn-ghost btn-sm" href="login.html">ログイン</a>
+          <a class="btn btn-primary btn-sm" href="shinki_touroku.html">会員登録</a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap crumb"><a href="index.html">トップ</a><span class="sep">/</span><a href="taiken_ichiran.html">体験一覧</a><span class="sep">/</span><span id="crumb-name">昭和ダイニングBOX</span></div>
+    <div class="section wrap" style="padding-top:16px">
+      <div class="grid-2">
+        <div>
+          <div class="detail-gallery">
+            <div class="main-img" id="main-img">📻</div>
+            <div class="thumbs">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+          </div>
+          <div style="margin-top:28px">
+            <span class="cat" id="d-cat" style="font-size:.8rem">昭和レトロ</span>
+            <h1 id="d-name" style="font-size:1.6rem;margin:8px 0">昭和ダイニングBOX</h1>
+            <div class="meta" style="display:flex;gap:16px;color:var(--ink-soft);font-size:.88rem;margin-bottom:18px">
+              <span class="stars" id="d-stars">★★★★★ 4.8</span>
+              <span id="d-pref">📍 愛知県 名古屋市</span>
+              <span id="d-rental">🔁 レンタル 23回</span>
+            </div>
+            <p id="d-desc" style="color:var(--ink-soft);line-height:1.9">レトロな食器と真空管ラジオが入った、昭和の食卓を再現できる体験BOXです。写真映えするアイテムが揃っています。届いたその日から昭和気分を楽しめます。</p>
+            <div class="divider"></div>
+            <h4 style="margin-bottom:14px">BOXのスペック</h4>
+            <table class="tbl">
+              <tbody>
+                <tr>
+                  <th style="width:160px">状態</th>
+                  <td id="d-cond">目立った傷や汚れなし</td>
+                </tr>
+                <tr>
+                  <th>対象年代</th>
+                  <td id="d-age">全年代</td>
+                </tr>
+                <tr>
+                  <th>体験目安時間</th>
+                  <td id="d-time">約60分</td>
+                </tr>
+                <tr>
+                  <th>レンタル期間</th>
+                  <td id="d-period">5日間</td>
+                </tr>
+                <tr>
+                  <th>発送元</th>
+                  <td id="d-from">愛知県</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="divider"></div>
+            <h4 style="margin-bottom:14px">出品者</h4>
+            <div style="display:flex;gap:14px;align-items:center">
+              <div class="avatar" id="s-avatar" style="width:52px;height:52px;font-size:1.2rem">出</div>
+              <div>
+                <strong id="s-name">出品 花子</strong>
+                <p id="s-text" style="font-size:.8rem;color:var(--ink-soft)">祖父母から受け継いだ昭和グッズを次の世代に。</p>
+              </div>
+              <a class="btn btn-ghost btn-sm" href="message_ichiran.html" style="margin-left:auto">メッセージを送る</a>
+            </div>
+            <div class="divider"></div>
+            <h4 style="margin-bottom:14px">レビュー（<span id="r-count">1</span>件）</h4>
+            <div id="review-list">
+              <div class="review">
+                <div class="top"><span class="who">匿名ユーザーC</span><span class="date">2026-06-20</span></div>
+                <div class="stars" style="margin-bottom:4px">★★★★★</div>
+                <div class="body">食器がどれも可愛く、写真映えしました。友人にもおすすめしたいです。</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="side-card" style="position:sticky;top:90px">
+            <div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px">
+              <strong id="d-price" style="font-family:var(--font-display);font-size:1.5rem">¥2,000</strong>
+              <span style="font-size:.78rem;color:var(--ink-soft)">/ レンタル1回</span>
+            </div>
+            <div class="hint" id="d-favcount" style="margin-bottom:18px">31人がお気に入り登録中</div>
+            <div class="field"><label>レンタル開始希望日</label><input id="startDate" type="date" value="2026-09-11" /></div>
+            <div class="field"><label>数量</label>
+              <div class="qty-stepper"><button>−</button><input id="qty" readonly="" type="text" value="1" /><button>＋</button></div>
+            </div>
+            <a class="btn btn-primary btn-block" href="kounyu_kakunin.html">この体験を予約する</a>
+            <button class="btn btn-outline btn-block" id="fav-btn" style="margin-top:10px">♡ お気に入りに追加</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo" style="color:#fff"><span class="mark" style="background:#233642;border-color:#5c6f79;color:#fff">時</span>TOKIHAKO</div>
+            <p>「使わなくなった経験」を次の誰かへ。個人間で思い出のBOXを貸し借りできるCtoCレンタルマーケットです。</p>
+          </div>
+          <div>
+            <h4>体験を探す</h4>
+            <a href="taiken_ichiran.html">体験一覧</a>
+            <a href="kensaku_kekka.html">検索結果</a>
+            <a href="okiniiri_ichiran.html">お気に入り一覧</a>
+          </div>
+          <div>
+            <h4>体験を出品する</h4>
+            <a href="shuppin_jouhou.html">出品情報登録</a>
+            <a href="shuppin_kanri.html">出品管理</a>
+            <a href="review_kanri.html">レビュー管理</a>
+          </div>
+          <div>
+            <h4>マイページ</h4>
+            <a href="kounyu_rireki.html">購入履歴</a>
+            <a href="mypage.html">会員情報</a>
+            <a href="message_ichiran.html">メッセージ</a>
+          </div>
+          <div>
+            <h4>サポート</h4>
+            <a href="support.html">使い方ガイド・FAQ</a>
+            <a href="support.html#contact">お問い合わせ</a>
+            <a href="support.html#admin">管理者機能</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
