@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>マイページ | TOKIHAKO -時箱-</title>
+    <meta content="個人間で思い出・体験のBOXを貸し借りできるCtoCレンタルマーケット" name="description" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="logo" href="index.html"><span class="mark">時</span>TOKIHAKO<small>思い出・体験レンタル</small></a>
+        <nav class="gnav"><a class="active" href="index.html">トップ</a><a class="" href="taiken_ichiran.html">体験を探す</a><a class="" href="shuppin_jouhou.html">出品する</a><a class="" href="support.html">サポート</a></nav>
+        <div class="hdr-actions">
+          <a class="icon-btn" href="okiniiri_ichiran.html" title="お気に入り">♡<span class="badge">2</span></a>
+          <a class="icon-btn" href="message_ichiran.html" title="メッセージ">✉</a>
+          <a class="avatar" href="mypage.html" title="体験 太郎">体</a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap crumb"><a href="index.html">トップ</a><span class="sep">/</span>マイページ</div>
+    <div class="page-head wrap"><span class="stamp">MY PAGE</span>
+      <h1>マイページ</h1>
+      <p class="lede">会員情報の確認・各種管理はこちらから行えます</p>
+    </div>
+    <div class="section wrap" style="padding-top:10px">
+      <div class="mypage-shell">
+        <div class="mypage-nav">
+          <div class="profile-mini">
+            <div class="avatar" id="mn-avatar">体</div>
+            <div><strong id="mn-name">体験 太郎</strong><span id="mn-mail">taro@example.com</span></div>
+          </div>
+          <a class="active" data-key="mypage" href="mypage.html">🏠 会員情報</a>
+          <a data-key="profile" href="profile_henshu.html">👤 プロフィール編集</a>
+          <a data-key="history" href="kounyu_rireki.html">🧾 購入履歴</a>
+          <a data-key="favorites" href="okiniiri_ichiran.html">♡ お気に入り一覧</a>
+          <a data-key="listing" href="shuppin_kanri.html">📦 出品管理</a>
+          <a data-key="review" href="review_kanri.html">⭐ レビュー管理</a>
+          <a data-key="messages" href="message_ichiran.html">✉ メッセージ</a>
+          <a data-key="logout" href="#">↩ ログアウト</a>
+        </div>
+        <div>
+          <div class="side-card" style="margin-bottom:24px">
+            <h4>会員情報</h4>
+            <table class="tbl">
+              <tbody>
+                <tr>
+                  <th style="width:160px">会員ID</th>
+                  <td id="v-id">U000001</td>
+                </tr>
+                <tr>
+                  <th>氏名</th>
+                  <td id="v-name">体験 太郎</td>
+                </tr>
+                <tr>
+                  <th>メールアドレス</th>
+                  <td id="v-mail">taro@example.com</td>
+                </tr>
+                <tr>
+                  <th>電話番号</th>
+                  <td id="v-tel">090-1234-5678</td>
+                </tr>
+                <tr>
+                  <th>生年月日</th>
+                  <td id="v-birth">未登録</td>
+                </tr>
+                <tr>
+                  <th>登録日時</th>
+                  <td id="v-reg">2026-01-10</td>
+                </tr>
+                <tr>
+                  <th>本人確認状態</th>
+                  <td id="v-verify"><span class="pill ok">確認済み</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="form-actions" style="margin-top:22px">
+              <a class="btn btn-primary" href="profile_henshu.html">プロフィールを編集する</a>
+              <a class="btn btn-outline" href="honnin_kakunin.html">本人確認書類を提出する</a>
+            </div>
+          </div>
+          <div class="grid-2" style="grid-template-columns:1fr 1fr">
+            <div class="side-card">
+              <h4>直近の予約</h4>
+              <div id="recent-orders">
+                <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px dashed var(--line-soft);font-size:.85rem">
+                  <span>70sレコード鑑賞BOX</span>
+                  <span class="pill info">取引完了</span>
+                </div>
+                <div style="display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px dashed var(--line-soft);font-size:.85rem">
+                  <span>茶道はじめてBOX</span>
+                  <span class="pill info">取引中</span>
+                </div>
+              </div>
+              <a class="more-link" href="kounyu_rireki.html" style="display:inline-block;margin-top:12px">購入履歴をすべて見る →</a>
+            </div>
+            <div class="side-card">
+              <h4>出品中のBOX</h4>
+              <div id="recent-listings">
+                <p style="font-size:.85rem;color:var(--ink-soft)">出品中のBOXはありません。</p>
+              </div>
+              <a class="more-link" href="shuppin_kanri.html" style="display:inline-block;margin-top:12px">出品管理へ →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo" style="color:#fff"><span class="mark" style="background:#233642;border-color:#5c6f79;color:#fff">時</span>TOKIHAKO</div>
+            <p>「使わなくなった経験」を次の誰かへ。個人間で思い出のBOXを貸し借りできるCtoCレンタルマーケットです。</p>
+          </div>
+          <div>
+            <h4>体験を探す</h4>
+            <a href="taiken_ichiran.html">体験一覧</a>
+            <a href="kensaku_kekka.html">検索結果</a>
+            <a href="okiniiri_ichiran.html">お気に入り一覧</a>
+          </div>
+          <div>
+            <h4>体験を出品する</h4>
+            <a href="shuppin_jouhou.html">出品情報登録</a>
+            <a href="shuppin_kanri.html">出品管理</a>
+            <a href="review_kanri.html">レビュー管理</a>
+          </div>
+          <div>
+            <h4>マイページ</h4>
+            <a href="kounyu_rireki.html">購入履歴</a>
+            <a href="mypage.html">会員情報</a>
+            <a href="message_ichiran.html">メッセージ</a>
+          </div>
+          <div>
+            <h4>サポート</h4>
+            <a href="support.html">使い方ガイド・FAQ</a>
+            <a href="support.html#contact">お問い合わせ</a>
+            <a href="support.html#admin">管理者機能</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

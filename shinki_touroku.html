@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>新規会員登録 | TOKIHAKO -時箱-</title>
+    <meta content="個人間で思い出・体験のBOXを貸し借りできるCtoCレンタルマーケット" name="description" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="logo" href="index.html"><span class="mark">時</span>TOKIHAKO<small>思い出・体験レンタル</small></a>
+        <nav class="gnav"><a class="" href="index.html">トップ</a><a class="" href="taiken_ichiran.html">体験を探す</a><a class="" href="shuppin_jouhou.html">出品する</a><a class="" href="support.html">サポート</a></nav>
+        <div class="hdr-actions">
+          <a class="btn btn-ghost btn-sm" href="login.html">ログイン</a>
+          <a class="btn btn-primary btn-sm" href="shinki_touroku.html">会員登録</a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap crumb"><a href="index.html">トップ</a><span class="sep">/</span>新規会員登録</div>
+    <div class="page-head wrap" style="text-align:center">
+      <h1>新規会員登録</h1>
+      <p class="lede">基本情報を入力して、TOKIHAKOをはじめましょう</p>
+    </div>
+    <div class="section wrap" style="padding-top:20px">
+      <div class="form-card">
+        <div class="error-box" id="err"></div>
+        <div id="reg-form">
+          <div class="field">
+            <label>氏名<span class="req">必須</span></label>
+            <input id="userName" placeholder="山田 太郎" required="" type="text" value="山田 花子" />
+          </div>
+          <div class="field">
+            <label>メールアドレス<span class="req">必須</span></label>
+            <input id="emailAddress" placeholder="taro@example.com" required="" type="email" value="hanako.sample@example.com" />
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label>パスワード<span class="req">必須</span></label>
+              <input id="password" minlength="8" placeholder="8文字以上" required="" type="password" value="" />
+            </div>
+            <div class="field">
+              <label>パスワード確認<span class="req">必須</span></label>
+              <input id="passwordConfirm" placeholder="もう一度入力" required="" type="password" value="" />
+            </div>
+          </div>
+          <div class="field">
+            <label>電話番号<span class="req">必須</span></label>
+            <input id="phoneNumber" placeholder="090-0000-0000" required="" type="tel" value="090-1234-5678" />
+          </div>
+          <div class="field">
+            <label>生年月日<span class="req">必須</span></label>
+            <input id="birthday" required="" type="date" value="" />
+          </div>
+          <p style="font-size:.75rem;color:var(--ink-soft);margin-bottom:18px">登録することで<a href="support.html" style="color:var(--indigo)">利用規約・プライバシーポリシー</a>に同意したものとみなされます。</p>
+          <div class="form-actions between">
+            <a class="btn btn-ghost" href="login.html">戻る</a>
+            <a class="btn btn-primary" href="honnin_kakunin.html">登録する</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo" style="color:#fff"><span class="mark" style="background:#233642;border-color:#5c6f79;color:#fff">時</span>TOKIHAKO</div>
+            <p>「使わなくなった経験」を次の誰かへ。個人間で思い出のBOXを貸し借りできるCtoCレンタルマーケットです。</p>
+          </div>
+          <div>
+            <h4>体験を探す</h4>
+            <a href="taiken_ichiran.html">体験一覧</a>
+            <a href="kensaku_kekka.html">検索結果</a>
+            <a href="okiniiri_ichiran.html">お気に入り一覧</a>
+          </div>
+          <div>
+            <h4>体験を出品する</h4>
+            <a href="shuppin_jouhou.html">出品情報登録</a>
+            <a href="shuppin_kanri.html">出品管理</a>
+            <a href="review_kanri.html">レビュー管理</a>
+          </div>
+          <div>
+            <h4>マイページ</h4>
+            <a href="kounyu_rireki.html">購入履歴</a>
+            <a href="mypage.html">会員情報</a>
+            <a href="message_ichiran.html">メッセージ</a>
+          </div>
+          <div>
+            <h4>サポート</h4>
+            <a href="support.html">使い方ガイド・FAQ</a>
+            <a href="support.html#contact">お問い合わせ</a>
+            <a href="support.html#admin">管理者機能</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

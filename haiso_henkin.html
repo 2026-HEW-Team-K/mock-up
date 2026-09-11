@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>配送状況・返金申請 | TOKIHAKO -時箱-</title>
+    <meta content="個人間で思い出・体験のBOXを貸し借りできるCtoCレンタルマーケット" name="description" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="logo" href="index.html"><span class="mark">時</span>TOKIHAKO<small>思い出・体験レンタル</small></a>
+        <nav class="gnav"><a class="active" href="index.html">トップ</a><a class="" href="taiken_ichiran.html">体験を探す</a><a class="" href="shuppin_jouhou.html">出品する</a><a class="" href="support.html">サポート</a></nav>
+        <div class="hdr-actions">
+          <a class="icon-btn" href="okiniiri_ichiran.html" title="お気に入り">♡<span class="badge">2</span></a>
+          <a class="icon-btn" href="message_ichiran.html" title="メッセージ">✉</a>
+          <a class="avatar" href="mypage.html" title="体験 太郎">体</a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap crumb"><a href="index.html">トップ</a><span class="sep">/</span><a href="kounyu_rireki.html">購入履歴</a><span class="sep">/</span>注文詳細</div>
+    <div class="page-head wrap">
+      <h1>注文詳細</h1>
+      <p class="lede">配送状況の確認や返金申請はこちらから行えます</p>
+    </div>
+    <div class="section wrap" style="padding-top:10px">
+      <div class="grid-2">
+        <div>
+          <div class="side-card" style="margin-bottom:20px">
+            <h4>ご注文の体験BOX</h4>
+            <div style="display:flex;gap:16px;margin-top:14px">
+              <div id="o-thumb" style="width:90px;height:90px;background:linear-gradient(135deg,var(--indigo),var(--brass));display:flex;align-items:center;justify-content:center;font-size:2rem;color:#fff">🎵</div>
+              <div><strong id="o-name" style="display:block;margin-bottom:6px">70sレコード鑑賞BOX</strong><span id="o-id" style="font-size:.8rem;color:var(--ink-soft)">予約番号 #9001　予約日 2026-08-02</span></div>
+            </div>
+          </div>
+          <div class="side-card">
+            <h4>配送状況</h4>
+            <div id="track" style="margin-top:16px">
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+                <div style="width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.75rem;
+        background:var(--indigo);color:#fff">✓</div>
+                <span style="font-size:.88rem;color:var(--ink);font-weight:400">発送準備中</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+                <div style="width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.75rem;
+        background:var(--indigo);color:#fff">✓</div>
+                <span style="font-size:.88rem;color:var(--ink);font-weight:400">発送済み</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px">
+                <div style="width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.75rem;
+        background:var(--indigo);color:#fff">✓</div>
+                <span style="font-size:.88rem;color:var(--ink);font-weight:400">配達中</span>
+              </div>
+              <div style="display:flex;align-items:center;gap:12px;margin-bottom:0">
+                <div style="width:26px;height:26px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:.75rem;
+        background:var(--indigo);color:#fff">✓</div>
+                <span style="font-size:.88rem;color:var(--ink);font-weight:700">配達完了</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="side-card" style="margin-bottom:20px">
+            <h4>お取引状況</h4>
+            <table class="tbl">
+              <tbody>
+                <tr>
+                  <th style="width:120px">支払い状況</th>
+                  <td id="o-pay"><span class="pill ok">支払い完了</span></td>
+                </tr>
+                <tr>
+                  <th>取引状況</th>
+                  <td id="o-status"><span class="pill info">取引完了</span></td>
+                </tr>
+                <tr>
+                  <th>返金状況</th>
+                  <td id="o-refund">申請なし</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="side-card">
+            <h4>返金申請</h4>
+            <p style="font-size:.82rem;color:var(--ink-soft);margin-bottom:14px">商品に問題があった場合は、返金を申請できます。運営が内容を確認のうえ対応します。</p>
+            <button class="btn btn-danger btn-block" id="refund-btn">返金を申請する</button>
+          </div>
+        </div>
+      </div>
+      <div class="form-actions" style="margin-top:24px">
+        <a class="btn btn-ghost" href="kounyu_rireki.html">← 購入履歴に戻る</a>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo" style="color:#fff"><span class="mark" style="background:#233642;border-color:#5c6f79;color:#fff">時</span>TOKIHAKO</div>
+            <p>「使わなくなった経験」を次の誰かへ。個人間で思い出のBOXを貸し借りできるCtoCレンタルマーケットです。</p>
+          </div>
+          <div>
+            <h4>体験を探す</h4>
+            <a href="taiken_ichiran.html">体験一覧</a>
+            <a href="kensaku_kekka.html">検索結果</a>
+            <a href="okiniiri_ichiran.html">お気に入り一覧</a>
+          </div>
+          <div>
+            <h4>体験を出品する</h4>
+            <a href="shuppin_jouhou.html">出品情報登録</a>
+            <a href="shuppin_kanri.html">出品管理</a>
+            <a href="review_kanri.html">レビュー管理</a>
+          </div>
+          <div>
+            <h4>マイページ</h4>
+            <a href="kounyu_rireki.html">購入履歴</a>
+            <a href="mypage.html">会員情報</a>
+            <a href="message_ichiran.html">メッセージ</a>
+          </div>
+          <div>
+            <h4>サポート</h4>
+            <a href="support.html">使い方ガイド・FAQ</a>
+            <a href="support.html#contact">お問い合わせ</a>
+            <a href="support.html#admin">管理者機能</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

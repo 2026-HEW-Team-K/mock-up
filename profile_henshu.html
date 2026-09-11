@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>プロフィール編集 | TOKIHAKO -時箱-</title>
+    <meta content="個人間で思い出・体験のBOXを貸し借りできるCtoCレンタルマーケット" name="description" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="logo" href="index.html"><span class="mark">時</span>TOKIHAKO<small>思い出・体験レンタル</small></a>
+        <nav class="gnav"><a class="active" href="index.html">トップ</a><a class="" href="taiken_ichiran.html">体験を探す</a><a class="" href="shuppin_jouhou.html">出品する</a><a class="" href="support.html">サポート</a></nav>
+        <div class="hdr-actions">
+          <a class="icon-btn" href="okiniiri_ichiran.html" title="お気に入り">♡<span class="badge">2</span></a>
+          <a class="icon-btn" href="message_ichiran.html" title="メッセージ">✉</a>
+          <a class="avatar" href="mypage.html" title="体験 太郎">体</a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap crumb"><a href="index.html">トップ</a><span class="sep">/</span><a href="mypage.html">マイページ</a><span class="sep">/</span>プロフィール編集</div>
+    <div class="page-head wrap">
+      <h1>プロフィール編集</h1>
+      <p class="lede">出品者・購入者の双方に表示される公開プロフィールです</p>
+    </div>
+    <div class="section wrap" style="padding-top:10px">
+      <div class="mypage-shell">
+        <div class="mypage-nav">
+          <div class="profile-mini">
+            <div class="avatar" id="mn-avatar">体</div>
+            <div><strong id="mn-name">体験 太郎</strong><span id="mn-mail">taro@example.com</span></div>
+          </div>
+          <a data-key="mypage" href="mypage.html">🏠 会員情報</a>
+          <a class="active" data-key="profile" href="profile_henshu.html">👤 プロフィール編集</a>
+          <a data-key="history" href="kounyu_rireki.html">🧾 購入履歴</a>
+          <a data-key="favorites" href="okiniiri_ichiran.html">♡ お気に入り一覧</a>
+          <a data-key="listing" href="shuppin_kanri.html">📦 出品管理</a>
+          <a data-key="review" href="review_kanri.html">⭐ レビュー管理</a>
+          <a data-key="messages" href="message_ichiran.html">✉ メッセージ</a>
+          <a data-key="logout" href="#">↩ ログアウト</a>
+        </div>
+        <div class="form-card wide">
+          <div class="success-box" id="ok" style="display:none">プロフィールを更新しました。</div>
+          <h4 style="margin-bottom:18px">基本情報</h4>
+          <div class="field-row">
+            <div class="field"><label>氏名</label><input id="userName" type="text" value="体験 太郎" /></div>
+            <div class="field"><label>電話番号</label><input id="phoneNumber" type="tel" value="090-1234-5678" /></div>
+          </div>
+          <div class="field"><label>プロフィール文</label><textarea id="profileText" placeholder="自己紹介や出品するBOXへの想いを書いてみましょう">昭和レトロと喫茶店巡りが好きです。週末は思い出BOXを探しています。</textarea></div>
+          <div class="divider"></div>
+          <h4 style="margin-bottom:18px">くわしいプロフィール</h4>
+          <div class="field-row">
+            <div class="field">
+              <label>年代</label>
+              <select id="ageGroup">
+                <option>10代</option>
+                <option>20代</option>
+                <option selected="selected">30代</option>
+                <option>40代</option>
+                <option>50代</option>
+                <option>60代以上</option>
+              </select>
+            </div>
+            <div class="field"><label>出身地</label><input id="birthplace" placeholder="例）愛知県" type="text" value="愛知県" /></div>
+          </div>
+          <div class="field"><label>趣味・興味</label><input id="hobby" placeholder="例）レコード鑑賞, 喫茶店巡り" type="text" value="喫茶店巡り, レコード鑑賞" /></div>
+          <div class="divider"></div>
+          <h4 style="margin-bottom:18px">配送先住所（デフォルト）</h4>
+          <div class="field-row">
+            <div class="field"><label>郵便番号</label><input id="postalCode" placeholder="000-0000" type="text" value="460-0008" /></div>
+            <div class="field"><label>都道府県</label><input id="prefecture" type="text" value="愛知県" /></div>
+          </div>
+          <div class="field-row">
+            <div class="field"><label>市区町村</label><input id="city" type="text" value="名古屋市中区" /></div>
+            <div class="field"><label>番地・建物名</label><input id="address" type="text" value="栄1-1-1" /></div>
+          </div>
+          <div class="form-actions between">
+            <a class="btn btn-ghost" href="mypage.html">キャンセル</a>
+            <button class="btn btn-primary">保存する</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo" style="color:#fff"><span class="mark" style="background:#233642;border-color:#5c6f79;color:#fff">時</span>TOKIHAKO</div>
+            <p>「使わなくなった経験」を次の誰かへ。個人間で思い出のBOXを貸し借りできるCtoCレンタルマーケットです。</p>
+          </div>
+          <div>
+            <h4>体験を探す</h4>
+            <a href="taiken_ichiran.html">体験一覧</a>
+            <a href="kensaku_kekka.html">検索結果</a>
+            <a href="okiniiri_ichiran.html">お気に入り一覧</a>
+          </div>
+          <div>
+            <h4>体験を出品する</h4>
+            <a href="shuppin_jouhou.html">出品情報登録</a>
+            <a href="shuppin_kanri.html">出品管理</a>
+            <a href="review_kanri.html">レビュー管理</a>
+          </div>
+          <div>
+            <h4>マイページ</h4>
+            <a href="kounyu_rireki.html">購入履歴</a>
+            <a href="mypage.html">会員情報</a>
+            <a href="message_ichiran.html">メッセージ</a>
+          </div>
+          <div>
+            <h4>サポート</h4>
+            <a href="support.html">使い方ガイド・FAQ</a>
+            <a href="support.html#contact">お問い合わせ</a>
+            <a href="support.html#admin">管理者機能</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>

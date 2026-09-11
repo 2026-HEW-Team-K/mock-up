@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>出品情報入力 | TOKIHAKO -時箱-</title>
+    <meta content="個人間で思い出・体験のBOXを貸し借りできるCtoCレンタルマーケット" name="description" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="bar">
+        <a class="logo" href="index.html"><span class="mark">時</span>TOKIHAKO<small>思い出・体験レンタル</small></a>
+        <nav class="gnav"><a class="" href="index.html">トップ</a><a class="" href="taiken_ichiran.html">体験を探す</a><a class="active" href="shuppin_jouhou.html">出品する</a><a class="" href="support.html">サポート</a></nav>
+        <div class="hdr-actions">
+          <a class="btn btn-ghost btn-sm" href="login.html">ログイン</a>
+          <a class="btn btn-primary btn-sm" href="shinki_touroku.html">会員登録</a>
+        </div>
+      </div>
+    </header>
+    <div class="wrap crumb"><a href="index.html">トップ</a><span class="sep">/</span>体験を出品する</div>
+    <div class="wrap" style="padding-top:18px">
+      <div class="guest-notice">
+        <span class="ic">🔒</span>
+        <span><strong>この画面は本来ログインが必要です。</strong>確認用として、未ログイン（ゲスト）の状態のまま画面の内容を表示しています。</span>
+      </div>
+    </div>
+    <div class="steps wrap" style="margin-top:24px">
+      <div class="step is-current" data-n="1">情報入力</div>
+      <div class="step" data-n="2">写真登録</div>
+      <div class="step" data-n="3">料金設定</div>
+      <div class="step" data-n="4">内容確認</div>
+      <div class="step" data-n="5">出品完了</div>
+    </div>
+    <div class="page-head wrap" style="padding-top:6px">
+      <h1>出品する体験の情報を入力</h1>
+      <p class="lede">タイトルや説明文は、借りる人が一番最初に見る情報です</p>
+    </div>
+    <div class="section wrap" style="padding-top:10px">
+      <div class="form-card wide">
+        <div class="field"><label>BOXタイトル<span class="req">必須</span></label><input id="productName" placeholder="例）昭和ダイニングBOX" type="text" value="純喫茶モーニングBOX（サンプル）" /></div>
+        <div class="field"><label>カテゴリー<span class="req">必須</span></label><select id="categoryId">
+            <option value="1">📻 昭和レトロ</option>
+            <option value="2">🏕️ アウトドア体験</option>
+            <option value="3">🪵 ものづくり</option>
+            <option value="4">🎎 和文化・伝統</option>
+            <option value="5">📷 フィルム写真</option>
+            <option value="6">🎵 レコード・音楽</option>
+            <option selected="selected" value="7">☕ 喫茶・食体験</option>
+            <option value="8">🎋 季節のイベント</option>
+          </select></div>
+        <div class="field"><label>体験の説明<span class="req">必須</span></label><textarea id="productDescription" placeholder="どんな体験ができるBOXか、内容物や楽しみ方を具体的に書きましょう">昔ながらのサイフォンと自家焙煎コーヒー豆、レトロなカップがセットになった喫茶体験BOXです。</textarea></div>
+        <div class="field-row">
+          <div class="field"><label>商品の状態<span class="req">必須</span></label>
+            <select id="productCondition">
+              <option selected="selected">新品、未使用</option>
+              <option>目立った傷や汚れなし</option>
+              <option>やや傷や汚れあり</option>
+              <option>傷や汚れあり</option>
+            </select>
+          </div>
+          <div class="field"><label>対象年代</label>
+            <select id="ageGroup">
+              <option selected="selected">全年代</option>
+              <option>ファミリー</option>
+              <option>10代〜20代</option>
+              <option>20代〜30代</option>
+              <option>30代〜50代</option>
+              <option>50代以上</option>
+            </select>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label>都道府県（発送元）<span class="req">必須</span></label><input id="prefecture" placeholder="例）愛知県" type="text" value="愛知県" /></div>
+          <div class="field"><label>市区町村</label><input id="city" placeholder="例）名古屋市" type="text" value="名古屋市" /></div>
+        </div>
+        <div class="form-actions between">
+          <a class="btn btn-ghost" href="shuppin_kanri.html">やめる</a>
+          <a class="btn btn-primary" href="shashin_touroku.html">次へ（写真登録）</a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <div class="logo" style="color:#fff"><span class="mark" style="background:#233642;border-color:#5c6f79;color:#fff">時</span>TOKIHAKO</div>
+            <p>「使わなくなった経験」を次の誰かへ。個人間で思い出のBOXを貸し借りできるCtoCレンタルマーケットです。</p>
+          </div>
+          <div>
+            <h4>体験を探す</h4>
+            <a href="taiken_ichiran.html">体験一覧</a>
+            <a href="kensaku_kekka.html">検索結果</a>
+            <a href="okiniiri_ichiran.html">お気に入り一覧</a>
+          </div>
+          <div>
+            <h4>体験を出品する</h4>
+            <a href="shuppin_jouhou.html">出品情報登録</a>
+            <a href="shuppin_kanri.html">出品管理</a>
+            <a href="review_kanri.html">レビュー管理</a>
+          </div>
+          <div>
+            <h4>マイページ</h4>
+            <a href="kounyu_rireki.html">購入履歴</a>
+            <a href="mypage.html">会員情報</a>
+            <a href="message_ichiran.html">メッセージ</a>
+          </div>
+          <div>
+            <h4>サポート</h4>
+            <a href="support.html">使い方ガイド・FAQ</a>
+            <a href="support.html#contact">お問い合わせ</a>
+            <a href="support.html#admin">管理者機能</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+
+</html>
